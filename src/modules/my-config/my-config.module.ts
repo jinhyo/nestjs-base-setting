@@ -26,7 +26,6 @@ import Joi from 'joi';
         AWS_SECRET_ACCESS_KEY: Joi.string().required(),
         AWS_REGION: Joi.string().required(),
         AWS_BUCKET: Joi.string().required(),
-        AWS_BUCKET_PROFILE_PICTURE_FOLDER: Joi.string().required(),
         NAVER_CLOUD_ACCESS_KEY_ID: Joi.string().required(),
         NAVER_CLOUD_SECRET_KEY: Joi.string().required(),
       }),
